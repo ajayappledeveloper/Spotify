@@ -6,3 +6,12 @@
 //
 
 import Foundation
+import UIKit
+
+class NetworkManager {
+    static let shared = NetworkManager()
+    let session: URLSession = URLSession.shared
+    private init() {
+        
+    }
+}
